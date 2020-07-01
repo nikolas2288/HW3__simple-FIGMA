@@ -22,14 +22,12 @@
     height: 331px;
     overflow: hidden;
     margin-bottom: 50px;
-    
 }
 
 .img img {
-    height: 100%;
-    /* background: linear-gradient(
-        180deg, rgba(255, 255, 255, 0)
-        52.08%, #FFFFFF 100%); */
+    width: 375px;
+    height: 331px;
+    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 52.08%, #FFFFFF 100%); */
 }
 
 .paragraf {
@@ -74,11 +72,16 @@
 .btn-input {
     width: 100%;
     border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
     outline: none;
     background: #275FBF;
     border-radius: 25px;
     color: white;
-    padding: 12px;
+    padding: 12px 15px;
+    cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
